@@ -15,7 +15,9 @@ public class task3a {
             System.out.println("Healthy");
         else if (bmi >= 25 && bmi <= 29.9)
             System.out.println("Overweight");
-        else
+        else if (bmi >= 30 && bmi <= 39.9)
             System.out.println("Obese");
+        else
+            System.out.println("Incorrect BMI");
     }
 }
