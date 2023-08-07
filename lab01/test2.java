@@ -1,6 +1,7 @@
+package lab01;
 import java.util.Scanner;
 
-public class test5 {
+public class test2 {
     public static void main(String[] args) {
         System.out.print("Enter a number:");
         Scanner sc =new Scanner(System.in);
