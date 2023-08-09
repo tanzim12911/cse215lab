@@ -13,10 +13,10 @@ public class task1 {
         
         System.out.print("Enter your name: ");
         String name = sc.nextLine();
-        sc.nextLine();
         
         for (int i = 1; i <= n; i++) {
             System.out.println(name);
         }
+        
     }
 }
