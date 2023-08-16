@@ -10,6 +10,7 @@ public class test2 {
         System.out.print("Enter a string: ");
         String inp_str = sc.nextLine();
 
-        
+        String out_str = inp_str.replace(inp_char, ' ');
+        System.out.println(out_str);
     }
 }
