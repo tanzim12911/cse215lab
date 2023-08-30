@@ -12,10 +12,10 @@ public class test {
     static boolean isPrime(int x) {
         boolean status = false;
         for (int i = 2; i < Math.sqrt(x); i++) {
-            if (x % i == 0)
+            if (x % i == 0) {
                 status = false;
-            else
-                status = true; 
+                break;
+            }
         }
         return status;
     }
