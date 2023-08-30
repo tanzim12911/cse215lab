@@ -9,8 +9,8 @@ public class test {
     }
 
     static int primeNum(int x) {
-        for (int i = 2; i <= x / 2; i++) {
-            if (x % i == 0)
+        for (int i = 2; i < x; i++) {
+            if (x % i != 0)
                 return x;
         }
 
