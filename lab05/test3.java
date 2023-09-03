@@ -17,11 +17,9 @@ public class test3 {
 
     static boolean isPalindrome(String x) {
         boolean status = false;
+        String reverse;
         for (int i = 0; i < x.length(); i++) {
-            if (x.charAt(i) == x.charAt(x.length() - 1))
-                status = true;
-            else
-                status = false;
+            reverse = x.charAt(x.length() - 1);
         }
 
         return status;
