@@ -7,8 +7,9 @@ public class TestClass {
         p[3] = new Herb("Bayleaf", "Brown", true, "Spring");
 
         display(p);
-        add(p, null);
-        search(p, "Daffodil");
+        System.out.println();
+        add(p, new Flower("Sunflower", "Yellow", true, false));
+        display(p);
 
     }
 
