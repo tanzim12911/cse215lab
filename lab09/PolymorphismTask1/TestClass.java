@@ -6,14 +6,21 @@ public class TestClass {
         p[2] = new Flower("Daffodil", "Yellow", true, false);
         p[3] = new Herb("Bayleaf", "Brown", true, "Spring");
 
+        System.out.println("Intial Plants: ");
         display(p);
         System.out.println();
+        
+        System.out.println("Plant Added: ");
         add(p, new Flower("Sunflower", "Yellow", true, false));
         display(p);
         System.out.println();
+        
+        System.out.println("Plant Removed: ");
         remove(p, "Sunflower");
         display(p);
         System.out.println();
+        
+        System.out.println("Searched Plant: ");
         System.out.println(search(p, "Basil"));
 
     }
