@@ -43,13 +43,14 @@ public class TestClass {
     }
 
     static Plant search(Plant[] plants, String n) {
-        Plant result = new Plant();
         for(int i = 0; i < plants.length; i++) {
                 if(plants[i].getName().equals(n)) {
-                    result = plants[i];
+                    return plants[i];
                 }
         }
-        return result;
+
+        return null;
+       
     }
 
     
