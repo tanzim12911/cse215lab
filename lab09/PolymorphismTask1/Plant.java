@@ -25,6 +25,6 @@ public class Plant {
 
     @Override
     public String toString() {
-        return "Plant Class: name = " + name + ", color = " + color + ", ";
+        return "Plant : name = " + name + ", color = " + color + ", ";
     }
 }

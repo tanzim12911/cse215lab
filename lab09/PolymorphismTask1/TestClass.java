@@ -10,6 +10,11 @@ public class TestClass {
         System.out.println();
         add(p, new Flower("Sunflower", "Yellow", true, false));
         display(p);
+        System.out.println();
+        remove(p, "Sunflower");
+        display(p);
+        System.out.println();
+        System.out.println(search(p, "Basil"));
 
     }
 
@@ -32,7 +37,7 @@ public class TestClass {
     static void remove(Plant[] plants, String n) {
         for(int i = 0; i < plants.length; i++) {
                 if(plants[i].getName().equals(n)) {
-                    plants[i].setName(null);
+                    plants[i] = null;
                 }
         }
     }
