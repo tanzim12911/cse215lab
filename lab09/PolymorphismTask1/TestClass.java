@@ -7,6 +7,7 @@ public class TestClass {
         p[3] = new Herb("Bayleaf", "Brown", true, "Spring");
 
         display(p);
+        add(p, null);
         search(p, "Daffodil");
 
     }
