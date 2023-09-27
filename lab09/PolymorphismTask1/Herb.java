@@ -31,7 +31,7 @@ public class Herb extends Plant {
 
     @Override
     public String toString() {
-        return super.toString() + " isMedicinal = " + isMedicinal + ", season = " + season;
+        return super.toString() + "::Herb:: isMedicinal = " + isMedicinal + ", season = " + season;
     }
     
 }

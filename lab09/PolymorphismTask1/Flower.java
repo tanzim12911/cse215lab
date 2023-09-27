@@ -30,7 +30,7 @@ public class Flower extends Plant {
 
     @Override
     public String toString() {
-        return super.toString() + " hasSmell = " + hasSmell + ", hasThorn = " + hasThorn;
+        return super.toString() + "::Flower:: hasSmell = " + hasSmell + ", hasThorn = " + hasThorn;
     }
     
 
