@@ -16,4 +16,5 @@ public class task2a {
             count--;
             System.out.println();
         }
+    }
 }
