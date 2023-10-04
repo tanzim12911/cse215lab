@@ -17,4 +17,8 @@ public class Student extends Person {
     public void types() {
         System.out.println("This is a student");
     }
+
+    public static void StaticMethod() {
+        System.out.println("This is a static method-1.");
+    }
 }
