@@ -1,4 +1,4 @@
-public class Circle implements Shape, Type {
+public class Circle extends Type implements Shape {
     int r;
 
     public Circle(int r) {

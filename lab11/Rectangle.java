@@ -1,4 +1,4 @@
-public class Rectangle implements Shape, Type {
+public class Rectangle extends Type implements Shape {
     int l, w;
 
     public Rectangle(int l, int w) {
