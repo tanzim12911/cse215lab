@@ -15,7 +15,7 @@ public class Circle implements Shape {
 
     @Override
     public void area() {
-        System.out.println("Area: " + r * r);
+        System.out.println("Area: " + Math.PI * r * r);
     }
 
     @Override
