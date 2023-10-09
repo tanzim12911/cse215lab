@@ -1,4 +1,4 @@
-public class Rectangle implements Shape {
+public class Rectangle implements Shape, Type {
     int l, w;
 
     public Rectangle(int l, int w) {
@@ -30,5 +30,10 @@ public class Rectangle implements Shape {
     @Override
     public void perimeter() {
         System.out.println("Perimeter: " + 2 * (l + w));
+    }
+
+    @Override
+    public void type() {
+        System.out.println("This is a rectangle");
     }
 }

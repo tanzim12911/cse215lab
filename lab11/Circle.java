@@ -1,4 +1,4 @@
-public class Circle implements Shape {
+public class Circle implements Shape, Type {
     int r;
 
     public Circle(int r) {
@@ -21,6 +21,11 @@ public class Circle implements Shape {
     @Override
     public void perimeter() {
         System.out.println("Perimeter: " + (2 * Math.PI * r));
+    }
+
+    @Override
+    public void type() {
+        System.out.println("This is a circle");
     }
 
     
